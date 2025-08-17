@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BytoBox</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <style>
+    body 
+    
+    {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: white;
+    }
+
+    .hero {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .btn-deal {
+      background: linear-gradient(to right, #ff416c, #ff4b2b);
+      color: white;
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 30px;
+      transition: 0.3s ease;
+    }
+
+    .btn-deal:hover {
+      transform: scale(1.05);
+    }
+
+    .features li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      margin-top: 40px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #fff;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+      color: #ffcc00;
+    }
+
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid justify-content-center">
+    <a class="navbar-brand d-flex align-items-center" href="#" style="color: white;">
+      <img src="logo.png" alt="Logo" style="height: 40px; margin-right: 10px; border-radius: 12px;">
+      BytoBox
+    </a>
+  </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1 class="display-4 fw-bold" style="color: white;">🔥 Canva Pro Lifetime + Gemini Pro + Google 2TB storage – Only ₹189</h1>
+        <p class="lead" style="color: white;">Offer Valid till 30 July – Get Instant Access + Pay After Activation!</p>
+        <button class="btn btn-deal" onclick="redirectToWhatsApp()">Book Now on WhatsApp</button>
+    </div>
+</section>
+
+<section class="container py-5">
+  <div class="row align-items-center">
+  
+    <!-- Image First on Mobile, Second on Desktop -->
+    <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+      <img src="Canva Pro.png" class="d-block mx-auto img-fluid rounded" alt="Canva Pro Offer" width="600" height="400" loading="lazy" style="border-radius: 20px;">
+    </div>
+
+    <!-- Text Second on Mobile, First on Desktop -->
+    <div class="col-md-6 order-2 order-md-1 text-white">
+      <h1 class="display-5 fw-bold lh-1 mb-3">CANVA PRO <sup>™</sup> LIFETIME</h1>
+      <p class="lead">
+        🔥 Offer Price: <strong style="font-size: 1.5rem; color: #ff5252;">₹189</strong><br>
+      </p>
+      <ul style="list-style: none; padding-left: 0; font-size: 1.1rem;">
+        <li>✔️ On Your Email</li>
+        <li>✔️ Lifetime Validity</li>
+        <li>✔️ All Pro Features</li>
+        <li>✔️ Instant Access</li>
+        <li>✔️ 100% Genuine</li>
+        <li style="color: #00ffcc; font-weight: 600;">🎁 FREE: Gemini Pro + 2TB Google One</li>
+      </ul>
+      <p style="font-size: 0.9rem; color: #bbb;">*100% refund in case of non-activation</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<div class="container px-4 py-5" id="hanging-icons-0">
+<h2 style="
+  padding-bottom: 0.5rem; 
+  border-bottom: 2px solid #ccc; 
+  color: red; 
+  animation: blink 1s infinite;">
+  Live Offers - Sale 🚨
+</h2>
+
+<div id="liveOffersCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+  <div class="carousel-inner rounded text-center">
+
+    <div class="carousel-item active">
+      <img src="Canva Pro.png" class="img-fluid mx-auto d-block rounded" alt="Canva EDU Bundle Offer" style="max-width: 90%; height: auto;">
+    </div>
+
+    <div class="carousel-item">
+      <img src="2.png" class="img-fluid mx-auto d-block rounded" alt="Canva EDU Bundle Offer" style="max-width: 90%; height: auto;">
+    </div>
+
+    <div class="carousel-item">
+      <img src="3.png" class="img-fluid mx-auto d-block rounded" alt="Canva EDU Bundle Offer" style="max-width: 90%; height: auto;">
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#liveOffersCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#liveOffersCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+
+
+<div class="container px-4 py-5" id="hanging-icons-0">
+  <h2 style="padding-bottom: 0.5rem; border-bottom: 2px solid #ccc; color: red;">
+    Today's Trending Deals 🚨
+  </h2>
+
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+    <!-- Card 1 -->
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
+        <img src="https://storage.googleapis.com/shy-pub/60613/1697988234594_10801080SellingSoftware.jpeg" alt="Deal Icon 1" style="width: 50px; height: 50px; border-radius: 8px;">
+      </div>
+<h3 class="fs-2 text-white">Canva Pro</h3>
+<p>
+  ₹99 (Lifetime)
+</p>
+
+    </div>
+
+    <!-- Card 2 -->
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
+        <img src="https://play-lh.googleusercontent.com/B5AENJqFOd91t5cWZLTQbVUm7iDWzYVM1n0Pe2RI_46dhlWMtVAUBioUvy4YMXWdwA" alt="Deal Icon 2" style="width: 50px; height: 50px; border-radius: 8px;">
+      </div>
+      <h3 class="fs-2 text-white">Google 1 (2TB) + Gemini </h3>
+<p>
+  ₹149 (1 Year)
+</p>
+
+<br>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
+        <img src="https://img.freepik.com/premium-psd/linkedin-logo-application-3d-render-illustration-isolated_155582-5629.jpg" alt="Deal Icon 3" style="width: 50px; height: 50px; border-radius: 8px;">
+      </div>
+      <h3 class="fs-2 text-white">LinkedIn Premium Nav.</h3>
+<p>
+  ₹129 (2 Months)
+</p>
+
+<br>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container px-4 py-5" id="hanging-icons-0">
+  <h2 class="pb-2 border-bottom text-white">Services & Notable Offers</h2>
+
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+    <div class="col d-flex align-items-start">
+      <!-- Replacing SVG with an image -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq25B8BSZZOXomcnIxfJOMbxRqSPxgT53hXw&s" class="flex-shrink-0 me-3 rounded" alt="Icon" width="40" height="40">
+      <div>
+        <h2 class="text-white">Canva Pro</h2>
+        <p class="text-white">Access unlimited templates and design tools for all your creative needs.</p>
+        <p class="text-white">₹99/-</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <img src="https://play-lh.googleusercontent.com/B5AENJqFOd91t5cWZLTQbVUm7iDWzYVM1n0Pe2RI_46dhlWMtVAUBioUvy4YMXWdwA" class="flex-shrink-0 me-3 rounded" alt="Icon" width="40" height="40">
+      <div>
+        <h2 class="text-white">Google One 2TB</h2>
+        <p class="text-white">2TB Google One storage for secure backups, large files, sharing, and seamless device sync.</p>
+        <p class="text-white">₹149/-</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRLe6zQx_yJo4LfcJecCDMAzwRnFtZKW3QQg&s" class="flex-shrink-0 me-3 rounded" alt="Icon" width="40" height="40">
+      <div>
+        <h2 class="text-white">Gemini Pro</h2>
+        <p class="text-white">Gemini Pro with all premium models and Neo 3 AI video generator included.</p>
+        <p class="text-white">₹149/-</p>
+      </div>
+    </div>
+
+        <div class="col d-flex align-items-start">
+      <img src="https://key.ma/wp-content/uploads/2024/11/Linkedin-Premium-Maroc.svg" class="flex-shrink-0 me-3 rounded" alt="Icon" width="40" height="40">
+      <div>
+        <h2 class="text-white">LinkedIn Premium Nav.</h2>
+        <p class="text-white">Unlock job insights, InMail credits, and profile views with LinkedIn Premium career tools.</p>
+        <p class="text-white">₹129/-</p>
+      </div>
+    </div>
+
+        <div class="col d-flex align-items-start">
+      <img src="https://saasyto.com/wp-content/uploads/2024/08/canva-edu-pro-subscription.png" class="flex-shrink-0 me-3 rounded" alt="Icon" width="40" height="40">
+      <div>
+        <h2 class="text-white">Canva Edu. Bundle</h2>
+        <p class="text-white">Get teacher access to Canva Edu and resell Premium to 500+ buyers easily.</p>
+        <p class="text-white">₹1999/-</p>
+      </div>
+    </div>
+
+        <div class="col d-flex align-items-start">
+      <img src="https://assets.bizclikmedia.net/1336/5c54c1fa5b86257922ce5c7f359dc7a6:b3c0650b725625104b34dcc882599254/google-gemini.webp" class="flex-shrink-0 me-3 rounded" alt="Icon" width="40" height="40">
+      <div>
+        <h2 class="text-white">G-1 + Gemini Bundle</h2>
+        <p class="text-white">Bulk pack of Google One 2TB + Gemini Pro access to resell.</p>
+        <p class="text-white">₹4999/-</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- About Section -->
+  <div class="container px-4 py-5" id="hanging-icons-1">
+  <h2 class="pb-2 border-bottom text-white">About Us</h2>
+<div class="px-4 py-5 my-5 text-center">
+<img class="d-block mx-auto mb-4 rounded" src="logo.png" alt="" width="72" height="72">
+    <h1 class="display-5 fw-bold">We're BytoBox</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">We helps you access premium design tools at the best prices. We provide lifetime deals on services like <b> <i>Canva Pro</i>  </b> and exclusive offers on tools like <b><i>LinkedIn Premium, Gemini Pro, & Google 2TB storage.</i></b> <br> <br> With fast delivery, trusted support, and one-time payment options, we make premium features affordable and accessible to everyone.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+<button type="button" class="btn btn-success btn-lg px-4 gap-3" onclick="redirectToWhatsApp()">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="24" height="24" class="me-2">
+  Contact Us
+</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mx-3 mb-3 rounded">
+  <p class="mb-0">&copy; 2025 BytoBox ❤️ | All Rights Reserved</p>
+</footer>
+
+
+  <script>
+    function redirectToWhatsApp() {
+      const msg = encodeURIComponent("Hi, I'm interested in the plans!");
+      const phoneNumber = "7507073807"; // Replace with your WhatsApp number
+      window.open(`https://wa.me/${phoneNumber}?text=${msg}`, '_blank');
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
